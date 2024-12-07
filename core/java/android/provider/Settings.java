@@ -13605,6 +13605,13 @@ public final class Settings {
         public static final String SCREEN_OFF_UDFPS_ENABLED = "screen_off_udfps_enabled";
 
         /**
+         * Control which apps to hide from other user apps.
+         * @hide
+         */
+        @Readable
+        public static final String HIDE_APPLIST = "hide_applist";
+
+        /**
          * Whether to pulse ambient on new music tracks
          * @hide
          */
